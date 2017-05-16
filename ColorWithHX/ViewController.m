@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIColor+HX.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIColor *color = [UIColor colorWithHexString:@"#D43E72"];
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    label.backgroundColor = color;
+    [self.view addSubview:label];
+    NSLog(@"%@", color);
     // Do any additional setup after loading the view, typically from a nib.
 }
 

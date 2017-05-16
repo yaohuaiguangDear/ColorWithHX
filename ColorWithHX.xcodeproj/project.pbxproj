@@ -15,6 +15,7 @@
 		202F5CDF1ECAD7AF00009D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202F5CDD1ECAD7AF00009D36 /* LaunchScreen.storyboard */; };
 		202F5CEA1ECAD7AF00009D36 /* ColorWithHXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 202F5CE91ECAD7AF00009D36 /* ColorWithHXTests.m */; };
 		202F5CF51ECAD7AF00009D36 /* ColorWithHXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 202F5CF41ECAD7AF00009D36 /* ColorWithHXUITests.m */; };
+		202F5D051ECAD88C00009D36 /* UIColor+HX.m in Sources */ = {isa = PBXBuildFile; fileRef = 202F5D041ECAD88C00009D36 /* UIColor+HX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		202F5CF01ECAD7AF00009D36 /* ColorWithHXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorWithHXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		202F5CF41ECAD7AF00009D36 /* ColorWithHXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorWithHXUITests.m; sourceTree = "<group>"; };
 		202F5CF61ECAD7AF00009D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202F5D031ECAD88C00009D36 /* UIColor+HX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HX.h"; sourceTree = "<group>"; };
+		202F5D041ECAD88C00009D36 /* UIColor+HX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HX.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		202F5CCE1ECAD7AF00009D36 /* ColorWithHX */ = {
 			isa = PBXGroup;
 			children = (
+				202F5D021ECAD81F00009D36 /* colorWithHX */,
 				202F5CD21ECAD7AF00009D36 /* AppDelegate.h */,
 				202F5CD31ECAD7AF00009D36 /* AppDelegate.m */,
 				202F5CD51ECAD7AF00009D36 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				202F5CF61ECAD7AF00009D36 /* Info.plist */,
 			);
 			path = ColorWithHXUITests;
+			sourceTree = "<group>";
+		};
+		202F5D021ECAD81F00009D36 /* colorWithHX */ = {
+			isa = PBXGroup;
+			children = (
+				202F5D031ECAD88C00009D36 /* UIColor+HX.h */,
+				202F5D041ECAD88C00009D36 /* UIColor+HX.m */,
+			);
+			path = colorWithHX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 				202F5CD71ECAD7AF00009D36 /* ViewController.m in Sources */,
 				202F5CD41ECAD7AF00009D36 /* AppDelegate.m in Sources */,
 				202F5CD11ECAD7AF00009D36 /* main.m in Sources */,
+				202F5D051ECAD88C00009D36 /* UIColor+HX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
